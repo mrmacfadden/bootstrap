@@ -1,0 +1,12 @@
+.titan{
+    background-color:#f1f1f1;
+}
+
+.bg-titan{
+    background-color:aquamarine !important;
+}
+
+.navbar-brand{
+    font-weight: 900;
+    text-transform: uppercase;
+}
