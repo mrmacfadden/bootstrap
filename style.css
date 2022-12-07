@@ -1,12 +1,20 @@
 /*
 =================================================
+MISC
+=================================================
+*/
+.quick-links i {
+  font-size: 3em;
+}
+/*
+=================================================
 NAVBAR
 =================================================
 */
-.navbar-brand{
-    font-weight: 900;
-    text-transform: uppercase;
-    color:aquamarine;
+.navbar-brand {
+  font-weight: 900;
+  text-transform: uppercase;
+  color: aquamarine;
 }
 
 /*
@@ -14,25 +22,24 @@ NAVBAR
 HERO SECTION
 =================================================
 */
-.hero-section{
-    background-color:aquamarine;
-    background-image:url('img/bg-image.png');
-    background-position: center;
-    background-size:cover;
+.hero-section {
+  background-color: aquamarine;
+  background-image: url("img/bg-image.png");
+  background-position: center;
+  background-size: cover;
 }
 
-.hero-section h1{
-    color:#000;
-    font-size:56px;
-    font-weight:900;
-    
+.hero-section h1 {
+  color: #000;
+  font-size: 56px;
+  font-weight: 900;
 }
 
-.hero-section .lead{
-    color:#FFF;
-    font-weight:300;
-    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.75);
-    font-size:22px;
+.hero-section .lead {
+  color: #fff;
+  font-weight: 300;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.75);
+  font-size: 22px;
 }
 
 /*
@@ -40,6 +47,6 @@ HERO SECTION
 SECTIONS
 =================================================
 */
-.bg-aquamarine{
-    background-color:aquamarine;
+.bg-aquamarine {
+  background-color: aquamarine;
 }
