@@ -40,7 +40,7 @@
         <a href="#">upgrade your browser</a> to improve your experience.</p
       >
     <![endif]-->
-    <nav class="navbar navbar-expand-md navbar-dark fixed bg-dark">
+    <nav class="navbar navbar-expand-md navbar-dark fixed bg-dark" id="nav">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">Research Project</a>
         <button
@@ -57,7 +57,7 @@
         <div class="collapse navbar-collapse" id="navbarCollapse">
           <ul class="navbar-nav ms-auto me-s-auto mb-2 mb-md-0 text-end">
             <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="#">About</a>
+              <a class="nav-link" aria-current="page" href="#about">About</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">FAQ</a>
@@ -113,7 +113,7 @@
 
     <div class="container py-5">
       <div class="row">
-        <h1 class="text-center pb-1 fw-bold">Lorem Ipsum</h1>
+        <h1 class="text-center pb-1 fw-bold" id="about">About</h1>
         <p>
           Praesent fringilla lacus eget eros bibendum molestie. Nulla sit amet
           mauris sed augue tincidunt suscipit. Donec bibendum egestas egestas.
@@ -135,6 +135,7 @@
       </div>
     </div>
 
+    <!-- 2/3, 1/3 SECTION -->
     <div class="bg-aquamarine py-5">
       <div class="container py-5">
         <div class="row">
@@ -154,17 +155,19 @@
               facilisis eget.
             </p>
             <button type="button" class="btn btn-lg btn-dark">
-              <i class="bi bi-cloud-arrow-down-fill"></i> Button
+                Button <i class="bi bi-chevron-right"></i>
             </button>
           </div>
         </div>
       </div>
     </div>
 
-    <div class="container py-5 text-center">
+    <!-- VIDEO SECTION -->
+    <div class="container py-5 text-center video">
       <div class="row py-5">
-        <div class="col py-5">
-          <iframe
+        <div class="col pb-5">
+            <h1 class="text-center pb-1 fw-bold pb-5">Embed Video</h1>
+            <iframe
             width="700"
             height="394"
             src="https://www.youtube.com/embed/uqd1SS6m4Dc?controls=0&amp;start=30"
@@ -172,11 +175,146 @@
             frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowfullscreen
-          ></iframe>
+            ></iframe>
         </div>
       </div>
     </div>
 
+    <div class="map py-5">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2960.8743146383426!2d-87.85378778410842!3d42.08874236018394!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880fc7866c15ef0f%3A0x3e8f71b4a0886863!2sGlenbrook%20South%20High%20School!5e0!3m2!1sen!2sus!4v1670427225956!5m2!1sen!2sus" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+
+    <div class="container py-5">
+        <div class="row py-5">
+            <div class="row">
+                <ul class="nav nav-tabs" id="myTab" role="tablist">
+                    <li class="nav-item" role="presentation">
+                      <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">Home</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                      <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane" type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false">Profile</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                      <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact-tab-pane" type="button" role="tab" aria-controls="contact-tab-pane" aria-selected="false">Contact</button>
+                    </li>
+                  </ul>
+                  <div class="tab-content" id="myTabContent">
+                    <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0">
+                        <h4 class="pt-5 fw-bold" id="about">Home</h1>
+                        <p>
+                          Praesent fringilla lacus eget eros bibendum molestie. Nulla sit amet
+                          mauris sed augue tincidunt suscipit. Donec bibendum egestas egestas.
+                          Maecenas eu urna nisi. In at lectus sollicitudin, ornare quam tempor,
+                          dignissim justo. Sed aliquam luctus leo ultricies finibus. Morbi
+                          lacinia justo vel eleifend feugiat.
+                        </p>
+                
+                        <p>
+                          In egestas pharetra convallis. Integer nec ullamcorper mi. Nunc
+                          ullamcorper fermentum leo, accumsan ullamcorper felis faucibus
+                          fermentum. Duis blandit in nibh sed tincidunt. Sed augue risus,
+                          sollicitudin sollicitudin eleifend posuere, congue mattis eros. Proin
+                          mollis est dolor, sed pulvinar enim facilisis eget. Sed ut vulputate
+                          ex. Ut ultrices eleifend orci, quis venenatis justo tempor nec.
+                          Suspendisse consectetur fringilla ex, eu porta tellus mollis sed. Sed
+                          a congue urna. Mauris eget lacus quam.
+                        </p>
+                    </div>
+                    <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">
+                        <h4 class="pt-5 fw-bold" id="about">Profile</h1>
+                            <p>
+                                In egestas pharetra convallis. Integer nec ullamcorper mi. Nunc
+                                ullamcorper fermentum leo, accumsan ullamcorper felis faucibus
+                                fermentum. Duis blandit in nibh sed tincidunt. Sed augue risus,
+                                sollicitudin sollicitudin eleifend posuere, congue mattis eros. Proin
+                                mollis est dolor, sed pulvinar enim facilisis eget. Sed ut vulputate
+                                ex. Ut ultrices eleifend orci, quis venenatis justo tempor nec.
+                                Suspendisse consectetur fringilla ex, eu porta tellus mollis sed. Sed
+                                a congue urna. Mauris eget lacus quam.
+                            </p>
+                            <p>
+                              Praesent fringilla lacus eget eros bibendum molestie. Nulla sit amet
+                              mauris sed augue tincidunt suscipit. Donec bibendum egestas egestas.
+                              Maecenas eu urna nisi. In at lectus sollicitudin, ornare quam tempor,
+                              dignissim justo. Sed aliquam luctus leo ultricies finibus. Morbi
+                              lacinia justo vel eleifend feugiat.
+                            </p>
+                    </div>
+                    <div class="tab-pane fade" id="contact-tab-pane" role="tabpanel" aria-labelledby="contact-tab" tabindex="0">
+                        <h4 class="pt-5 fw-bold" id="about">Contacts</h1>
+                            <p>
+                              Praesent fringilla lacus eget eros bibendum molestie. Nulla sit amet
+                              mauris sed augue tincidunt suscipit. Donec bibendum egestas egestas.
+                              Maecenas eu urna nisi. In at lectus sollicitudin, ornare quam tempor,
+                              dignissim justo. Sed aliquam luctus leo ultricies finibus. Morbi
+                              lacinia justo vel eleifend feugiat.
+                            </p>
+                    
+                            <p>
+                              In egestas pharetra convallis. Integer nec ullamcorper mi. Nunc
+                              ullamcorper fermentum leo, accumsan ullamcorper felis faucibus
+                              fermentum. Duis blandit in nibh sed tincidunt. Sed augue risus,
+                              sollicitudin sollicitudin eleifend posuere, congue mattis eros. Proin
+                              mollis est dolor, sed pulvinar enim facilisis eget. Sed ut vulputate
+                              ex. Ut ultrices eleifend orci, quis venenatis justo tempor nec.
+                              Suspendisse consectetur fringilla ex, eu porta tellus mollis sed. Sed
+                              a congue urna. Mauris eget lacus quam.
+                            </p>
+                    </div>
+                  </div>
+                </div>
+        </div>
+
+    </div>
+
+    <!-- FOOTER -->
+    <div class="bg-dark text-white py-5 footer">
+        <div class="container py-5">
+          <div class="row">
+            <div class="col-sm-3 pb-5">
+                <h5>Heading 1</h3>
+                <ul class="text-white-50">
+                    <li>Lorem ipsum dalor</li>
+                    <li>Site amet</li>
+                    <li>...</li>
+                    <li>...</li>
+                </ul>
+            </div>
+            <div class="col-sm-3 pb-5">
+                <h5>Heading 2</h3>
+                    <ul class="text-white-50">
+                        <li>Lorem ipsum dalor</li>
+                        <li>Site amet</li>
+                        <li>...</li>
+                        <li>...</li>
+                    </ul>
+            </div>
+            <div class="col-sm-3 pb-5">
+                <h5>Heading 3</h3>
+                    <ul class="text-white-50">
+                        <li>Lorem ipsum dalor</li>
+                        <li>Site amet</li>
+                        <li>...</li>
+                        <li>...</li>
+                    </ul>
+            </div>
+            <div class="col-sm-3 pb-5">
+                <h5>Heading 4</h3>
+                    <ul class="text-white-50">
+                        <li>Lorem ipsum dalor</li>
+                        <li>Site amet</li>
+                        <li>...</li>
+                        <li>...</li>
+                    </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    <!-- BACK TO TOP -->
+    <a href="#nav">
+        <i class="bi bi-arrow-up-circle-fill to-top text-black"></i>
+    </a>
     <script src="" async defer></script>
   </body>
 </html>
