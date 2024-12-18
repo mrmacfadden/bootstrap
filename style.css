@@ -85,6 +85,29 @@ SECTIONS
   max-width: 856px;
   height: 518px;
 }
+
+/*
+=================================================
+CAROUSEL
+=================================================
+*/
+.container {
+  display: flex;
+  justify-content: center; /* Centers the carousel horizontally */
+}
+
+.carousel {
+  max-width: 700px; /* Limits the carousel width to 700px */
+  width: 100%; /* Ensures the carousel remains responsive */
+}
+
+.carousel-item img {
+  object-fit: cover; /* Ensures the image fills the container without distortion */
+  height: 500px; /* Sets a fixed height for the images */
+  max-height: 500px; /* Ensures the images do not exceed 500px */
+  width: 100%; /* Ensures the images scale to the carousel width */
+}
+
 /*
 =================================================
 FOOTER
